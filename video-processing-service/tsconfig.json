@@ -1,16 +1,11 @@
 {
     "compilerOptions": {
-      "target" : "es6",
-      "module": "CommonJS",
-      "noImplicitAny": true,
-      "removeComments": true,
-      "preserveConstEnums": true,
-      "strict": true,
-      "esModuleInterop": true,
-      "rootDir": "dist",
-      "outFile": "../../built/local/tsc.js",
-      "sourceMap": true
-    },
+        "target": "ES6",
+        "module": "CommonJS",
+        "rootDir": "src",
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true},
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules"]
-  } 
+}
